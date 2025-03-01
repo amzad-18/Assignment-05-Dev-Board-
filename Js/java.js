@@ -34,3 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.style.backgroundColor = getRandomColor();
     });
 });
+
+
+
+// Discover something new today section
+
+
+document.getElementById("loadPage").addEventListener("click", function () {
+    window.location.href = "discover.html"; // Redirects to HTML 2
+});
+
